@@ -1,0 +1,25 @@
+javac MemoryFlipFlopGame.java
+java MemoryFlipFlopGame
+
+
+// CMD Commands
+// echo %CLASSPATH%
+// set classpath=.;./lib/*
+// echo %CLASSPATH%
+// .;./lib/*
+
+
+
+javac -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar MemoryFlipFlopGame.java
+java -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar MemoryFlipFlopGame
+
+
+
+javac -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar;hsqldb-2.5.0.jar MemoryFlipFlopGame.java
+java -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar;hsqldb-2.5.0.jar MemoryFlipFlopGame
+
+
+javac -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar;hsqldb-2.5.0.jar;commons-logging-1.2.jar;commons-lang3-3.8.1.jar MemoryFlipFlopGame.java
+java -cp .;ucanaccess-5.0.1.jar;jackcess-3.0.1.jar;hsqldb-2.5.0.jar;commons-logging-1.2.jar;commons-lang3-3.8.1.jar MemoryFlipFlopGame
+
+
